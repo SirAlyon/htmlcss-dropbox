@@ -1,0 +1,76 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+/* Common */
+
+
+/* Utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-30{
+    width: 32%;
+    background-color: rgba(212, 127, 127, 0.507);
+    float: left;
+}
+
+.col-70{
+    width: 68%;
+    background-color: rgba(127, 212, 165, 0.507);
+    float: left;
+}
+
+.col-100{
+    width: 100%;
+    background-color: rgba(212, 127, 127, 0.507);
+    float: left;
+}
+
+.m3-right{
+    margin-right: 2%;
+}
+
+.m70-top{
+    margin-top: 70px;
+}
+
+
+.height300{
+    height: 300px;
+}
+
+.height400{
+    height: 400px;
+}
+
+.height600{
+    height: 600px;
+}
+
+/* Header */
+
+.nav-left,
+.nav-right{
+    width: 50%;
+    height: 80px;
+    background-color: darkkhaki;
+    float: left;
+}
+
+/* Main */
+
+.hero-section{
+    height: 800px;
+    background-color: aqua;
+}
+
+.sm-container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+/* Footer */
