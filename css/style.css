@@ -3,6 +3,12 @@
 }
 /* Common */
 
+section{
+    margin-top: 70px;
+}
+
+
+
 
 /* Utility */
 
@@ -15,6 +21,18 @@
 .col-30{
     width: 32%;
     background-color: rgba(212, 127, 127, 0.507);
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    background-color: rgba(212, 127, 127, 0.507);
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0.459);
     float: left;
 }
 
@@ -34,10 +52,13 @@
     margin-right: 2%;
 }
 
-.m70-top{
-    margin-top: 70px;
+.height150{
+    height: 150px;
 }
 
+.height200{
+    height: 200px;
+}
 
 .height300{
     height: 300px;
@@ -63,7 +84,7 @@
 
 /* Main */
 
-.hero-section{
+.hero{
     height: 800px;
     background-color: aqua;
 }
@@ -74,3 +95,14 @@
     background-color: bisque;
 }
 /* Footer */
+
+
+/* Colors */
+
+.bg-red{
+    background-color: rgba(255, 0, 0, 0.459);
+}
+
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.562);
+}
