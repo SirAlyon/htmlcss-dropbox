@@ -9,10 +9,10 @@ body{
 }
 
 section{
-    margin-top: 70px;
+    margin-top: 170px;
 }
 
-a{
+.p-left{
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
@@ -175,6 +175,37 @@ a{
     margin: 0 auto;
     background-color: bisque;
 }
+
+.payments{
+    padding: 25px 0px 25px 25px;
+}
+
+.payments>h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.payments>span:first-of-type{
+    padding-right: 15px;
+}
+
+
+/* Plans Layout (table) */
+.table-header{
+    width: 100%;
+    float: left;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+
+.table-layout{
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid lightgray;
+}
+
 /* Footer */
 
 
