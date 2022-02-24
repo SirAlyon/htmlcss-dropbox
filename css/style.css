@@ -7,6 +7,12 @@ section{
     margin-top: 70px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    vertical-align: middle;    
+}
 
 
 
@@ -16,6 +22,14 @@ section{
     content: "";
     display: table;
     clear: both;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.p-left{
+    padding-left: 25px;
 }
 
 .col-30{
@@ -77,9 +91,18 @@ section{
 .nav-left,
 .nav-right{
     width: 50%;
-    height: 80px;
-    background-color: darkkhaki;
     float: left;
+    padding: 20px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.nav-right a:last-child>span{
+    color: white;
+    background-color:rgba(0, 97, 255, 1);
+    padding: 4px 15px;
 }
 
 /* Main */
