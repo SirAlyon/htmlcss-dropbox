@@ -66,11 +66,20 @@ img{
     padding-left: 25px;
 }
 
+.m-bot-2{
+    margin-bottom: 2rem;
+}
+
 .col-20{
     width: 20%;
 }
 
 .col-30{
+    width: 30%;
+    float: left;
+}
+
+.col-32{
     width: 32%;
     float: left;
 }
@@ -80,6 +89,10 @@ img{
     float: left;
 }
 
+.col-40{
+    width: 40%;
+    float: left;
+}
 .col-45{
     width: 45%;
     float: left;
@@ -116,7 +129,7 @@ img{
     margin-right: 2%;
 }
 
-.test{
+.m-top40{
     margin-top: 40px;
     border: 1px solid rgba(230, 230, 232, 1);
 }
@@ -149,29 +162,36 @@ img{
     height: 900px;
 }
 
+.height-full{
+    height: 100%;
+}
 /* Hover */
 
-
+.hover{
+    transition: transform 0,2s;
+    /* transition: 0.5s all ease-in-out; */
+}
 
 .free-trial:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.nav-right a:last-child:hover{
-    cursor: pointer;
-}
 
 .days-30:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.table-layout:hover{
+.table-layout:hover,
+.m-top40:hover{
     transform: scale(1.05);
     border: 1px solid var(--trial);
-    box-shadow: 0px 0px 5px rgba(154, 136, 255, 0.473);
+    box-shadow: 1px 1px 2px var(--trial);
+    border-radius: 2px;
+    
 }
+
 /* Header */
 
 .nav-left,
@@ -358,6 +378,132 @@ img{
 }
 
 /* #endregion */
+
+
+/* #region Dropbox Business */
+
+.business-text>h3{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.business-h2{
+    font-size: 2rem;
+}
+
+.business-img{
+    margin-top: 2rem;
+}
+
+
+/* #endregion */
+
+/* #region Teams */
+
+.teams{
+    aspect-ratio: 1 / 1;
+}
+
+.teams>img{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(328deg) brightness(108%) contrast(101%);
+}
+
+.teams-style-1{
+    background-color: rgba(162, 211, 155, 1);
+    border: 10px solid rgba(208, 233, 205, 1);
+}
+
+
+.teams-style-2{
+    background-color: rgba(182, 73, 89, 1);
+}
+
+.teams-style-3{
+    background-color: rgba(0, 147, 206, 1);
+}
+
+.teams-style-4{
+    background-color: rgba(255, 28, 28, 1);
+}
+
+.teams-style-5{
+    background-color: rgba(213, 0, 31, 1);
+}
+
+.teams-style-6{
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.teams-style-7{
+    background-color:  rgba(13, 36, 129, 1);
+}
+
+.teams-style-8{
+    background-color: rgba(255, 216, 48, 1);
+}
+
+.teams-content{
+    padding: 40px;
+    aspect-ratio: 1.33;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.teams-content>div{
+    width: 10%;
+    margin: 40px 0px;
+    
+}
+
+.teams-content>p{
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+
+
+#teams-img{
+    width: 150px;
+}
+
+
+.teams-footer{
+    background-color:  rgba(180, 208, 231, 1);
+    height: 100%;
+}
+
+/* .teams-footer>.sm-container>div{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+}
+ */
+
+ 
+ .teams-footer>.sm-container>span{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 80px;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform:translateY(-50%);
+ }
+
+ .teams-footer>.sm-container>h2{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+ }
+
+/* #endregion */
+
+
+
+
 /* Footer */
 
 
