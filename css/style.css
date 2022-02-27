@@ -17,6 +17,7 @@ img{
     max-width: 100%;
 }
 
+
 .nav-left a,
 .nav-right a{
     text-decoration: none;
@@ -72,6 +73,7 @@ img{
 
 .col-20{
     width: 20%;
+    float: left;
 }
 
 .col-30{
@@ -285,6 +287,9 @@ img{
     margin: 0 auto;
     font-size: 0.9rem;
     border: 1px solid rgba(230, 230, 232, 1);
+    padding-bottom: 20px;
+    min-height: 920px;
+    overflow: hidden;
 }
 
 .table-layout ul{
@@ -474,14 +479,6 @@ img{
     background-color:  rgba(180, 208, 231, 1);
     height: 100%;
 }
-
-/* .teams-footer>.sm-container>div{
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-}
- */
-
  
  .teams-footer>.sm-container>span{
     border: 1px solid black;
@@ -497,13 +494,85 @@ img{
     position: absolute;
     top: 50%;
     transform:translateY(-50%);
+    color: rgba(97, 8, 43, 1);
  }
 
 /* #endregion */
 
+/* #region Asked Questions */
 
+.questions{
+    margin-bottom: 7rem;
+}
 
+.questions>h3{
+    font-size: 1.7rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.questions>p{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+
+.questions>p>i{
+    float: right;
+    margin-right: 1rem;
+}
+
+.questions>hr{
+    opacity: 0.3;
+}
+
+/* #endregion */
 
 /* Footer */
 
+#site_footer{
+    background-color: black;
+}
 
+#site_footer ul{
+    list-style: none;
+    color: white;
+    margin-top: 6rem;
+}
+
+#site_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#site_footer ul>li:first-child{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#site_footer li{
+    margin-bottom: 0.5rem;
+}
+
+#site_footer .col-100>div:first-child{
+    width: 10%;
+    opacity: 0.7;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.countries{
+    margin-bottom: 3rem;
+    opacity: 0.5;
+}
+
+#country{
+    background-color: transparent;
+    color: rgb(207, 207, 207, 1);
+    border: none;
+}
+
+#country option{
+    color: black;
+}
