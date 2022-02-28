@@ -59,8 +59,8 @@ img{
     position: relative;
 }
 
-.p-left{
-    padding-left: 25px;
+.m-left{
+    margin-left: 40px;
 }
 
 .m-bot-2{
@@ -153,6 +153,9 @@ img{
 
 .sub-menu-hover:hover>a{
     font-weight: bold;
+    background-color: 
+    rgba(242, 238, 232, 1);
+    padding: 30px 10px;
 }
 
 .sub-menu-hover:hover div{
@@ -196,8 +199,8 @@ img{
     display: none;
     position: absolute;
     top: 100%;
-    left: 25px;
-    background-color: rgb(255, 255, 255);
+    left: 40px;
+    background-color: rgba(242, 238, 232, 1);
     border-radius: 5px;
 }
 
@@ -530,7 +533,6 @@ input[type="radio"]:checked {
 }
  
  .teams-footer>.sm-container>span{
-    border: 1px solid black;
     background-color: white;
     padding: 10px 80px;
     position: absolute;
@@ -649,4 +651,8 @@ input[type="radio"]:checked {
 
 #country option{
     color: black;
+}
+
+.countries:hover{
+    opacity: 1;
 }
