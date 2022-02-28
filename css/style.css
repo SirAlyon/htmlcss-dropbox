@@ -38,6 +38,15 @@ img{
     clear: both;
 }
 
+.inline{
+    display: inline-block;
+}
+
+.min-width-650{
+    min-width: 650px;
+}
+
+
 .text-right{
     text-align: right;
 }
@@ -148,6 +157,18 @@ img{
     border-radius: 2px;
 }
 
+.sub-menu-hover:hover>a{
+    font-weight: bold;
+}
+
+.sub-menu-hover:hover div{
+    display: inherit;
+}
+
+.sub-menu:hover{
+    display: block;
+}
+
 /* #endregion */
 
 /* Header */
@@ -177,7 +198,31 @@ img{
     padding: 4px 15px;
 }
 
+.sub-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid var(--trial);
+    box-shadow: 0px 0px 5px;
+    border-radius: 5px;
+}
 
+.sub-menu ul{
+    padding: 40px 0px 30px 40px;
+    list-style: none;
+    float: left;
+}
+
+.sub-menu ul>li:first-child{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sub-menu ul li:not(:first-child){
+    margin-bottom: 7px;
+}
 
 /* Main */
 
